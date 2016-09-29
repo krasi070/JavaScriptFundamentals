@@ -22,7 +22,7 @@ function lastMonth([day, month, year]) {
             console.log(30);
             break;
         case 2:
-            if (year % 4 == 0) {
+            if (year % 4 === 0 && (year % 100 != 0 || year % 400 === 0)) {
                 console.log(29);
             } else {
                 console.log(28);
