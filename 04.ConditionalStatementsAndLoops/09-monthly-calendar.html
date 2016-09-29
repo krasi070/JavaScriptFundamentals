@@ -11,9 +11,68 @@
         #calendarCode { width: 100%; }
     </style>
     <script>
-        function calendar([day, month, year])
-        {
+        function calendar([day, month, year]) {
+            [day, month, year] = [day, month, year].map(Number);
             let html = '<table>\n';
+            html += '<tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>\n';
+            let today = new Date(year, month - 1, day);
+            let firstDayOfMonth = new Date(year, month - 1, 1);
+            if (firstDayOfMonth.getDay() != 0) {
+                let previousMonth = new Date(year, month - 1, 0);
+                let lastDayOfPreviousMonth = previousMonth.getDate();
+                previousMonth.setDate(previousMonth.getDate() - firstDayOfMonth.getDay() + 1);
+                html += '<tr>';
+                for (let i = previousMonth.getDate(); i <= lastDayOfPreviousMonth; i++) {
+                    html += `<td class="prev-month">${i}</td>`;
+                }
+
+                for (let i = firstDayOfMonth.getDay(); i < 7; i++) {
+                    let day = firstDayOfMonth.getDate() + i - firstDayOfMonth.getDay();
+                    if (day == today.getDate()) {
+                        html += `<td class="today">${day}</td>`;
+                    } else {
+                        html += `<td>${day}</td>`;
+                    }
+                }
+
+                html += '</tr>\n';
+            }
+
+            let nextMonth;
+            if (today.getMonth() == 11) {
+                nextMonth = new Date(year + 1, 0, 1);
+            } else {
+                nextMonth = new Date(year, today.getMonth() + 1, 1);
+            }
+
+            let lastDayOfMonth = new Date(nextMonth.getFullYear(), nextMonth.getMonth(), 0);
+            let currDay = new Date(year, month - 1, 1 + (7 - (firstDayOfMonth.getDay() == 0 ? 7 : firstDayOfMonth.getDay())));
+            for (let i = currDay.getDate(); i <= lastDayOfMonth.getDate(); i++) {
+                if (currDay.getDay() == 0) {
+                    html += "<tr>";
+                }
+
+                if (i == today.getDate()) {
+                    html += `<td class="today">${i}</td>`;
+                } else {
+                    html += `<td>${i}</td>`;
+                }
+
+                if (currDay.getDay() == 6) {
+                    html += "</tr>\n";
+                }
+
+                currDay.setDate(currDay.getDate() + 1);
+            }
+
+            while (nextMonth.getDay() != 0) {
+                html += `<td class="next-month">${nextMonth.getDate()}</td>`;
+                nextMonth.setDate(nextMonth.getDate() + 1);
+                if (nextMonth.getDay() == 0) {
+                    html += "</tr>\n"
+                }
+            }
+
             html += '</table>';
             return html;
         }
