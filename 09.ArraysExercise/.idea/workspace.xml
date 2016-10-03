@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e749fe8-8402-493b-bda8-afe380b34ad4" name="Default" comment="" />
-    <ignored path="07.ArraysAndMatrices.iws" />
+    <list default="true" id="57fe415e-7184-4c1b-8592-672672fa8d33" name="Default" comment="" />
+    <ignored path="09.ArraysExercise.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,105 +19,105 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="07.ArraysAndMatrices" />
+    <favorites_list name="09.ArraysExercise" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01-sum-first-last.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-sum-first-last.js">
+      <file leaf-file-name="01-print-array-with-given-delimiter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-print-array-with-given-delimiter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="1" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02-even-position-element.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-even-position-element.js">
+      <file leaf-file-name="02-print-every-nth-element-from-array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-print-every-nth-element-from-array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-negative-positive-numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-negative-positive-numbers.js">
+      <file leaf-file-name="03-add-and-remove-elements-from-array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-add-and-remove-elements-from-array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="407">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04-first-and-last-k-numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-first-and-last-k-numbers.js">
+      <file leaf-file-name="04-rotate-array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-rotate-array.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="74" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05-last-k-numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-last-k-numbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06-process-odd-numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-process-odd-numbers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07-smallest-two-numbers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-smallest-two-numbers.js">
+      <file leaf-file-name="05-extract-non-decreasing-sequence-from-array.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-extract-non-decreasing-sequence-from-array.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="6" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="08-biggest-element.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-biggest-element.js">
+      <file leaf-file-name="06-sort-array-by-2-criteria.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-sort-array-by-2-criteria.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09-diagonal-sums.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-diagonal-sums.js">
+      <file leaf-file-name="07-magic-matrices.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-magic-matrices.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="589">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10-equal-neighbours.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10-equal-neighbours.js">
+      <file leaf-file-name="08-spiral-matrix.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/08-spiral-matrix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="545">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09-diagonal-attack.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09-diagonal-attack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10-orbit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10-orbit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -135,17 +135,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01-sum-first-last.js" />
-        <option value="$PROJECT_DIR$/02-even-position-element.js" />
-        <option value="$PROJECT_DIR$/03-negative-positive-numbers.js" />
-        <option value="$PROJECT_DIR$/04-first-and-last-k-numbers.js" />
-        <option value="$PROJECT_DIR$/05-last-k-numbers.js" />
-        <option value="$PROJECT_DIR$/06-process-odd-numbers.js" />
-        <option value="$PROJECT_DIR$/07-smallest-two-numbers.js" />
-        <option value="$PROJECT_DIR$/08-biggest-element.js" />
-        <option value="$PROJECT_DIR$/09-diagonal-sums.js" />
-        <option value="$PROJECT_DIR$/10-equal-numbers.js" />
-        <option value="$PROJECT_DIR$/10-equal-neighbours.js" />
+        <option value="$PROJECT_DIR$/01-print-array-with-given-delimiter.js" />
+        <option value="$PROJECT_DIR$/02-print-every-nth-element-from-array.js" />
+        <option value="$PROJECT_DIR$/03-add-and-remove-elements-from-array.js" />
+        <option value="$PROJECT_DIR$/04-rotate-array.js" />
+        <option value="$PROJECT_DIR$/05-extract-non-decreasing-sequence-from-array.js" />
+        <option value="$PROJECT_DIR$/07-sort-array-by-2-criteria.js" />
+        <option value="$PROJECT_DIR$/06-sort-array-by-2-criteria.js" />
+        <option value="$PROJECT_DIR$/07-magic-matrices.js" />
+        <option value="$PROJECT_DIR$/08-spiral-matrix.js" />
+        <option value="$PROJECT_DIR$/09-diagonal-attack.js" />
+        <option value="$PROJECT_DIR$/10-orbit.js" />
       </list>
     </option>
   </component>
@@ -186,27 +186,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.ArraysAndMatrices" />
+              <option name="myItemId" value="09.ArraysExercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.ArraysAndMatrices" />
+              <option name="myItemId" value="09.ArraysExercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="07.ArraysAndMatrices" />
+              <option name="myItemId" value="09.ArraysExercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -219,11 +219,20 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
-  <component name="RunManager" selected="Node.js.10-equal-neighbours.js">
-    <configuration default="false" name="06-process-odd-numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06-process-odd-numbers.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.10-orbit.js">
+    <configuration default="false" name="04-rotate-array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="04-rotate-array.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="10-equal-neighbours.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="10-equal-neighbours.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="06-sort-array-by-2-criteria.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="06-sort-array-by-2-criteria.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="07-magic-matrices.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="07-magic-matrices.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="08-spiral-matrix.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="08-spiral-matrix.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="10-orbit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="10-orbit.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -273,41 +282,50 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.06-process-odd-numbers.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.10-equal-neighbours.js" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.04-rotate-array.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.06-sort-array-by-2-criteria.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.07-magic-matrices.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.08-spiral-matrix.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.10-orbit.js" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.10-equal-neighbours.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.06-process-odd-numbers.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.10-orbit.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.08-spiral-matrix.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.07-magic-matrices.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.06-sort-array-by-2-criteria.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.04-rotate-array.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0e749fe8-8402-493b-bda8-afe380b34ad4" name="Default" comment="" />
-      <created>1475520576427</created>
+      <changelist id="57fe415e-7184-4c1b-8592-672672fa8d33" name="Default" comment="" />
+      <created>1475527387645</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1475520576427</updated>
-      <workItem from="1475520577893" duration="6798000" />
+      <updated>1475527387645</updated>
+      <workItem from="1475527388936" duration="8538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6798000" />
+    <option name="totallyTimeSpent" value="8538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -341,82 +359,82 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-sum-first-last.js">
+    <entry file="file://$PROJECT_DIR$/01-print-array-with-given-delimiter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" column="56" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-even-position-element.js">
+    <entry file="file://$PROJECT_DIR$/02-print-every-nth-element-from-array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-negative-positive-numbers.js">
+    <entry file="file://$PROJECT_DIR$/03-add-and-remove-elements-from-array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="407">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-first-and-last-k-numbers.js">
+    <entry file="file://$PROJECT_DIR$/04-rotate-array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="74" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-last-k-numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-process-odd-numbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07-smallest-two-numbers.js">
+    <entry file="file://$PROJECT_DIR$/05-extract-non-decreasing-sequence-from-array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="6" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-biggest-element.js">
+    <entry file="file://$PROJECT_DIR$/06-sort-array-by-2-criteria.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-diagonal-sums.js">
+    <entry file="file://$PROJECT_DIR$/07-magic-matrices.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="589">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-equal-neighbours.js">
+    <entry file="file://$PROJECT_DIR$/09-diagonal-attack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-spiral-matrix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-orbit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
         </state>
       </provider>
