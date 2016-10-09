@@ -62,21 +62,26 @@ function angularParser(input) {
     for (let [k, v] of apps) {
         if (addedApps.indexOf(k) == -1) {
             apps.delete(k);
+        } else {
+            v.controllers = v.controllers.sort().map(c => '"' + c + '"');
+            v.models = v.models.sort().map(m => '"' + m + '"');
+            v.views = v.views.sort().map(v => '"' + v + '"');
         }
     }
 
-    apps = apps.sort((a, b) => {
-        let contrllersA = a.controllers.length;
-        let contrllersB = b.controllers.length;
-    });
-}
+    apps = new Map([...apps.entries()].sort((a, b) => {
+        if (a[1].controllers.length == b[1].controllers.length) {
+            return a[1].models.length - b[1].models.length;
+        }
 
-angularParser(["$controller='PHPController'&app='Languag Parser'",
-                "$controller='JavaController'&app='Language Parser'",
-                "$controller='C#Controller'&app='Language Parser'",
-                "$controller='C++Controller'&app='Language Parser'",
-                "$app='Garbage Collector'",
-                "$controller='GarbageController'&app='Garbage Collector'",
-                "$controller='SpamController'&app='Garbage Collector'",
-                "$app='Language Parser'"]
-);
+        return b[1].controllers.length - a[1].controllers.length;
+    }));
+
+    let result = '{';
+    for (let [k, v] of apps) {
+        result += `"${k}":{"controllers":[${v.controllers}],"models":[${v.models}],"views":[${v.views}]},`;
+    }
+
+    result = result.substring(0, result.length - 1) + '}';
+    console.log(result);
+}
