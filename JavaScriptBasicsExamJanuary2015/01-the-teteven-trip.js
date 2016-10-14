@@ -26,11 +26,3 @@ function theTetevenTrip(input) {
         console.log(`${carModel} ${fuelType} ${routeNumber} ${Math.round(fuelConsumed)}`);
     }
 }
-
-theTetevenTrip(
-    ['BMW petrol 1 320.5',
-        'Golf petrol 2 150.75',
-        'Lada gas 1 202',
-        'Mercedes diesel 2 312.54']
-
-);
