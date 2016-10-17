@@ -32,18 +32,3 @@ function radicalMarketing(commands) {
         console.log(`${i + 1}. ${result[0][1].subscribers[i]}`);
     }
 }
-
-radicalMarketing([
-    'J',
-    'G',
-    'P',
-    'R',
-    'C',
-    'J-G',
-    'G-J',
-    'P-R',
-    'R-P',
-    'C-J'
-
-
-]);
